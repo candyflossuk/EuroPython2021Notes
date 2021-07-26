@@ -18,15 +18,26 @@ class C:
     # equivalent to the below - where the staticmethod annotation is not used.
     # func = staticmethod(func)
 
-# Create a wrapper that prints 'Wrapped' before executing the function
+
 def hello(func):
+    # Create a wrapper that prints 'Wrapped' before executing the function
     def wrapper(*args, **kwargs):
         print('Wrapped')
         return func(*args, **kwargs)
     return wrapper
 
 
-@hello
+# Parametrized decorator
+def say(text):
+    def _say(func):
+        def __say(*args, **kwargs):
+            print(text)
+            return func(*args, **kwargs)
+        return __say
+    return _say
+
+
+@say('Hello')
+@say('Good Morning')
 def add(a, b):
     return a + b
-
