@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153a0f25-145b-41fa-a85c-da621b8de737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pydonts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydonts.py" beforeDir="false" afterPath="$PROJECT_DIR$/pydonts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <updated>1627286924183</updated>
       <workItem from="1627286927073" duration="4632000" />
       <workItem from="1627372983606" duration="2792000" />
-      <workItem from="1627476502473" duration="521000" />
+      <workItem from="1627476502473" duration="877000" />
     </task>
     <servers />
   </component>

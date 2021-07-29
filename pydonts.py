@@ -25,5 +25,9 @@ for idx, elem in enumerate(my_list):
 
 # You can also use zip for for loops
 
+# Nest sparringly
+# Flat is better than nested
 
-
+# Dont do try except with lots of nesting - have the smallest amount of code in the try as possible
+# Another example is reading in a file - once the file is open dont put the processing of that file in the nesting used to open the file
+# Nesting introduces semantic dependencies - Less the better.
